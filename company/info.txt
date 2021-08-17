@@ -1,0 +1,12 @@
+
+
+[main] INFO  com.yash.Log4j.LogDemo  - This is the log for LogDemo
+[main] DEBUG com.yash.Log4j.LogDemo  - This is a debug message
+[main] WARN  com.yash.Log4j.LogDemo  - This is a warn message
+[main] ERROR com.yash.Log4j.LogDemo  - This is an error message
+[main] FATAL com.yash.Log4j.LogDemo  - This is a fatal message
+[main] INFO  com.yash.Log4j.LogDemo  - This is the log for LogDemo
+[main] DEBUG com.yash.Log4j.LogDemo  - This is a debug message
+[main] WARN  com.yash.Log4j.LogDemo  - This is a warn message
+[main] ERROR com.yash.Log4j.LogDemo  - This is an error message
+[main] FATAL com.yash.Log4j.LogDemo  - This is a fatal message

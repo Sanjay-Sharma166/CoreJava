@@ -1,0 +1,34 @@
+[main] INFO  com.yash.LogProject.Log  - This is the log for LogDemo
+[main] DEBUG com.yash.LogProject.Log  - This 
+[main] WARN  com.yash.LogProject.Log  - You provide wrong input
+[main] ERROR com.yash.LogProject.Log  - Please provide correct value
+[main] INFO  com.yash.LogProject.Log  - Operation perform Addition :
+[main] DEBUG com.yash.LogProject.Log  - This 
+[main] WARN  com.yash.LogProject.Log  - You provide wrong input
+[main] ERROR com.yash.LogProject.Log  - Please provide correct value
+[main] INFO  com.yash.LogProject.Log  - Operation perform Addition :
+[main] INFO  com.yash.LogProject.Log  - Operation perform Substraction :
+[main] WARN  com.yash.LogProject.Log  - You provide wrong input
+[main] ERROR com.yash.LogProject.Log  - Please provide correct value
+[main] INFO  com.yash.LogProject.Log  - Operation perform Addition :
+[main] INFO  com.yash.LogProject.Log  - Operation perform Substraction :
+[main] WARN  com.yash.LogProject.Log  - You provide wrong input
+[main] ERROR com.yash.LogProject.Log  - Please provide correct value
+[main] INFO  com.yash.LogProject.Log  - Operation perform Addition :
+[main] WARN  com.yash.LogProject.Log  - You provide wrong input
+[main] ERROR com.yash.LogProject.Log  - Please provide correct value
+[main] INFO  com.yash.LogProject.Log  - Operation perform Addition :
+[main] WARN  com.yash.LogProject.Log  - You provide wrong input
+[main] ERROR com.yash.LogProject.Log  - Please provide correct value
+[main] INFO  com.yash.LogProject.Log  - Operation perform Addition :
+[main] WARN  com.yash.LogProject.Log  - You provide wrong input
+[main] ERROR com.yash.LogProject.Log  - Please provide correct value
+[main] INFO  com.yash.LogProject.Log  - Operation perform Addition :
+[main] WARN  com.yash.LogProject.Log  - Please do not put wrong input
+[main] ERROR com.yash.LogProject.Log  - No Error
+[main] INFO  com.yash.LogProject.Log  - Operation perform Addition :
+[main] INFO  com.yash.LogProject.Log  - Operation perform Addition :
+[main] INFO  com.yash.LogProject.Log  - Operation perform Addition :
+[main] INFO  com.yash.LogProject.Log  - Operation perform Addition :
+[main] INFO  com.yash.LogProject.Log  - Operation perform Addition :
+[main] INFO  com.yash.LogProject.Log  - Operation perform Addition :
