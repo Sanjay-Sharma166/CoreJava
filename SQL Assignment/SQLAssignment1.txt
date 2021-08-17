@@ -1,0 +1,52 @@
+1.Display all record of employee-
+Ans. SELECT * FROM employee;
+-------------------------------------------------------
+2.Write a mysql statement to find the employee salary is greater than 300000-
+Ans. SELECT * FROM employee WHERE salary>300000;
+-------------------------------------------------------
+3.Write mysql statement to show distinct departments-
+Ans. SELECT DISTINCT department From employee;
+-------------------------------------------------------
+4.Write mysql statement to get records of employees working in IT,Testing department-
+Ans. SELECT * FROM employee WHERE department IN("IT","Testing");
+-------------------------------------------------------
+5.Write mysql statement to get all departments in descending order-
+Ans. SELECT * FROM employee ORDER BY department DESC;
+-------------------------------------------------------
+6.Write mysql statement to create a table employee which already exists-
+-------------------------------------------------------
+7. Write mysql statement to find the Highest and lowest Pais salary employee full record?
+Ans. SELECT id,Name,salary FROM employee WHERE salary=(SELECT MAX(salary) FROM employee):
+     SELECT id,Name,salary,designation FROM employee WHERE salary=(SELECT MIN(salary) FROM employee);
+--------------------------------------------------------
+8.Write mysql statement to find all the employee that have worked in at least 2 department. Show their name,department
+  they work in. Display all results in ascending order.
+Ans.
+--------------------------------------------------------
+9.Write mysql statement to create new database, use newly created database, create table and check the list of table
+  and drop the table-
+--------------------------------------------------------
+10.Write mysql statement to fetch employee records whose designation is manager and salary is between 200000 to 300000-
+Ans.select * from employee where designation = "Manager" and salary between 200000 and 300000;
+--------------------------------------------------------
+11.Write mysql statement to update the salary by 20000 in Accounts department
+Ans.update employee set salary = 20000 where department = "Accounts";
+--------------------------------------------------------
+12.Write mysql statement to alter table by adding new column as doj(date of joining) into the employee table-
+Ans. ALTER TABLE employee ADD doj varchar(10);
+--------------------------------------------------------
+13.Write mysql statement to rename the employee table-
+Ans.ALTER TABLE employee RENAME TO employee1;
+--------------------------------------------------------
+14.Write mysql statement to get names which are NOT NULL-
+Ans.SELECT * FROM employee WHERE NAME IS NOT NULL;
+--------------------------------------------------------
+15.Write mysql statement to get null doj values
+Ans.SELECT * FROM employee WHERE doj IS NULL;
+--------------------------------------------------------
+16.Write mysql statement to get salary between 100000 to 200000 inAccounts and IT departments
+Ans. select * from employee where department in("Accounts", "IT") and salary between 20000 and 100000;
+---------------------------------------------------------
+17.Write mysql statement to show the use of ANY
+Ans.
+---------------------------------------------------------

@@ -1,0 +1,29 @@
+1. Show the structure of the employees table. Create a query to display the lastName, 
+employeenumber, extension, officecode, reporting manager id and job title for each employee with 
+employee number appearing first.
+Ans.SELECT employeenumber,lastName,extension,officeCode,reportsTo,jobTitle FROM employee;
+------------------------------------------------------------------------------------------
+2.: Create unique JobTitles from employees table. 
+Ans. SELECT UNIQUE jobTitle FROM employee;
+------------------------------------------------------------------------------------------
+3.ReCreate the query for question 1 and column name must be appeared as Employee#, Extn, 
+Office_Code, Manager ID and Job Title for each employee and redisplay the data.
+Ans.SELECT employeeNumber AS Employee, lastName, firstName, extension AS EXTN,officeCode AS office_Code,reprotsTo AS Manager_ID,jobtitle FROM employee;
+------------------------------------------------------------------------------------------
+4.Display data firstname,lastname concated separated by comma-
+Ans.SELECT CONTACT_WS(',',lastname,firstname)AS EmployeeName FROM employee;
+------------------------------------------------------------------------------------------
+5.: Create a query to display the Emp# EmplyeeName, Mgr # and ManagerName . In this query all 
+the employees must be displayed with reporting manager.
+Ans.SELECT CONCAT(lastName,",",firstName) AS employeeName,manager_name FROM employee e,manager m WHERE e.employeeNumber=m.employeeNumber;
+------------------------------------------------------------------------------------------
+6.Create a query to display the customer name, Contact, and Credit Limit of all those employees 
+who falls in credit limit of between 85100 to 100600. Your output should be as below.
+Ans.SELECT c_name,CONCAT(contactfirstname,",",contactlastname)AS contact_name,creditlimit FROM customer WHERE creditlimit BETWEEN 85100 AND 100600;
+------------------------------------------------------------------------------------------
+10. Display contactlastname of customers where there is a at second position in name. 
+Ans.SELECT contactfirstname FROM customer WHERE contactfirstname LIKE '_a%';
+------------------------------------------------------------------------------------------
+11.Display the contactlastname of customers where there is either “g” or “o” available in name.
+Ans.SELECT contactlastname FROM customer WHERE contactlastname LIKE '%o%'OR'%g%';
+------------------------------------------------------------------------------------------
