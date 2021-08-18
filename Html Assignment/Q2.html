@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body >
+    <Form>
+
+        <fieldset>
+            <legend>Registration form</legend>
+            <label>Name</label>
+            <input class="in" type="text" placeholder="Enter your Full Name"><br>
+            <br>
+            <label>Email</label>
+            <input class="in" type="email" placeholder="user@xyz.com">
+            <br><br>
+
+            <fieldset style="width: auto;" id=two >
+                <legend>Gender</legend>
+                <input type="radio" name="Gender">
+                <label>Male</label><br>
+                <input type="radio"  name="Gender">
+                <label for="Female">Female</label><br><br>
+            </fieldset>
+            <br>
+
+            <label for="language">Choose a Subject:</label>
+            <select id="language" name="language">
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="Swift">Swift</option>
+                <option value="JavaScript">JavaScript</option>
+            </select><br><br>
+            <label>Password:</label>
+            <input class="in" type="password" placeholder="         Aaa_@-123">
+            <br><br>
+
+        </fieldset>
+        <button class="reset" type="reset"> Reset it</button>
+        <button type="button" onclick="alert('Why you click on button...')">Click Me!</button>
+    </Form>
+</body>
+
+</html>
