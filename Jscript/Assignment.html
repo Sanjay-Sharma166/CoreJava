@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body >
+           
+    <Form>
+
+        <fieldset>
+            <legend>Online Room Booking System</legend>
+
+            <label>From-date</label>
+		<input type="date" id="fromdate" name="fromdate"><br><br>
+            <label>To-date</label>
+		<input type="date" id="todate" name="todate"><br><br>
+
+           <label>Purpose</label>
+            <input class="text" id="purpose"name="purpose" size="28"/><br><br>
+           
+            <label>Number of people expected</label>
+            <input class="in" id="numberOfPeople"type="email" placeholder=" ">
+            <br><br>
+            <label>Employee-Id</label>
+            <input class="in"id="employeeid" type="email" placeholder=" "><br><br>
+
+		 <label>Phone No:</label>
+            <input class="in" id="phoneno" type="email" placeholder=" "><br><br>
+        
+           <label for="roomno">Room No:</label>
+            <select id="roomno" name="roomno">
+                <option value="roomno">101</option>
+               <option value="roomno">102</option>
+    		<option value="roomno">103</option>
+		<option value="roomno">104</option>
+			</select><br><br>	
+             <label>Duration</label>
+            <input class="text" name="duration" size="28"/><br>
+            <hr>
+        </fieldset>
+       <center> <input type="button" value="Book Room" onclick="Bookroom()">
+    <input type="reset" value="Reset"</center>
+    </Form>
+</table>
+<table id="show" border="3">
+    <tr>
+        <th>From date</th>
+        <th>To date</th>
+        <th>Purpose</th>
+    </tr>
+</table>
+<script src="Bookroom.js"></script>
+</body>
+
+</html>

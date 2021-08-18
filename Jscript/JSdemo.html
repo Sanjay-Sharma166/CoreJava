@@ -1,0 +1,52 @@
+<html>
+<head>
+</head>
+<p id="p">hello</p>
+<input type="button" value="go" onclick="colorChange()">
+<script>
+document.writeln("Hello world");
+console.log("Hii");
+document.getElementById("p").innerHTML="My data";
+
+var age = 20;
+         
+            if( age > 18 ) {
+               document.write("<b>Qualifies for driving</b>");
+            } else {
+               document.write("<b>Does not qualify for driving</b>");
+            }
+         
+		 var a="Sanjay";
+		 var b=23;
+		 var c=22.23;
+		 var d='y';
+		 console.log("My data is"+a+" "+b+" "+c+" "+d);
+		 
+const car = {type:"Fiat", model:"500", color:"white"};
+
+// Change a property:
+car.color = "red";
+
+// Add a property:
+car.owner = "Johnson";
+document.getElementById("demo").innerHTML = "Car owner is " + car.owner; 
+
+const cars = ["BMW", "Volvo", "Saab", "Ford"];
+
+let i = 0;
+let len = cars.length;
+let text = "";
+
+for (; i < len; ) {
+  text += cars[i] + "<br>";
+  i++;
+}
+document.getElementById("demo").innerHTML = text;
+function colorChange()
+{
+document.getElementById("p").style.color="blue";
+document.getElementById("p").style.fontFamily="Arial";
+
+}
+</script>
+</html>
