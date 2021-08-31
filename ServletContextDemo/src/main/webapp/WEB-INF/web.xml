@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ServletContextDemo</display-name>
+  <context-param>
+<param-name>p5</param-name>
+<param-value> New Value of p5</param-value>
+</context-param>
+
+<servlet>
+<servlet-name>one</servlet-name>
+<servlet-class>one</servlet-class>
+
+<init-param>
+<param-name>p1</param-name>
+<param-value>Value of p1</param-value>
+</init-param>
+<init-param>
+<param-name>p2</param-name>
+<param-value>Value of p2</param-value>
+</init-param>
+
+</servlet>
+<servlet-mapping>
+<servlet-name>one</servlet-name>
+<url-pattern>/one</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>two</servlet-name>
+<servlet-class>two</servlet-class>
+
+<init-param>
+<param-name>p3</param-name>
+<param-value>Value of p3</param-value>
+</init-param>
+<init-param>
+<param-name>p4</param-name>
+<param-value>Value of p4</param-value>
+</init-param>
+
+</servlet>
+<servlet-mapping>
+<servlet-name>two</servlet-name>
+<url-pattern>/two</url-pattern>
+</servlet-mapping>
+</web-app>
